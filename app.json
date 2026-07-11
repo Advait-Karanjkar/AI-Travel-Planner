@@ -1,0 +1,36 @@
+{
+  "name": "AI Travel Planner",
+  "description": "An AI-powered Travel Planner built using Python Flask and IBM watsonx.ai Granite models. The application generates personalized travel itineraries, budget analysis, hotel recommendations, travel tips, and destination insights.",
+  "repository": "https://github.com/Advait-Karanjkar/AI-Travel-Planner",
+  "logo": "",
+  "keywords": [
+    "python",
+    "flask",
+    "ibm",
+    "watsonx",
+    "granite",
+    "travel",
+    "ai",
+    "travel-planner"
+  ],
+  "website": "",
+  "success_url": "/",
+  "env": {
+    "IBM_API_KEY": {
+      "description": "IBM Cloud API Key"
+    },
+    "WATSONX_PROJECT_ID": {
+      "description": "IBM watsonx.ai Project ID"
+    },
+    "WATSONX_URL": {
+      "description": "IBM watsonx.ai Runtime URL"
+    },
+    "WATSONX_MODEL_ID": {
+      "description": "Foundation Model ID",
+      "value": "ibm/granite-4-h-small"
+    },
+    "FLASK_SECRET_KEY": {
+      "description": "Flask Secret Key"
+    }
+  }
+}
